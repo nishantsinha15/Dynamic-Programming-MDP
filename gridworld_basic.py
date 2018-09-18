@@ -135,7 +135,7 @@ def main():
         final[index[0]][index[1]] = v[i]
     for rows in final:
         for e in rows:
-            print(e,"\t\t", end = "")
+            print("%06.3f" %e, end = "\t")
         print()
 
 main()
